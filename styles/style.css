@@ -123,6 +123,7 @@ main > section{
 .facts-contaner{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
 }
 .facts-card{
     border: 2px solid #FF900E;
@@ -133,6 +134,7 @@ main > section{
     text-align: center;
     justify-content: center;
     align-items: center;
+    gap: 24px;
 }
 .fact-namber{
     font-size: 2.8rem;
@@ -147,6 +149,7 @@ main > section{
     margin-bottom: 5px;
     color: #727272;
 }
+
 .some-contant{
     max-width: 540px;
     margin-top: 24px;

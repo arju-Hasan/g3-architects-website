@@ -1,3 +1,5 @@
+/* small device style  */
+
 @media screen and (max-width: 576px) {
     .navbar, .nav-link, .features {
         flex-direction: column;
@@ -7,10 +9,19 @@
         font-weight: 600;
         font-size: 1.6rem;
     }
-    .itme-img-contaner{
+    .itme-img-contaner, .facts-contaner{
         grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 115px;
+    }
+    .facts-contaner{
+        justify-items: center;
+    }
+    .some-title-contaner{
+        justify-content: center;
+        align-items: center;
     }
 }
+
 
 
 /* mediam device style  */
@@ -18,4 +29,12 @@
     .features{
         flex-direction: column;
     }
-}
+    .facts-contaner{
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 115px;
+    } 
+    .some-title-contaner{
+        justify-content: center;
+        align-items: center;
+    }
+    }
