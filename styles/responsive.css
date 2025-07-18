@@ -9,17 +9,28 @@
         font-weight: 600;
         font-size: 1.6rem;
     }
-    .itme-img-contaner, .facts-contaner{
+    .itme-img-contaner, .facts-contaner, .sponspor-logo{
         grid-template-columns: repeat(1, 1fr);
         margin-bottom: 115px;
     }
     .facts-contaner{
         justify-items: center;
+        gap: 25px;
+        /* justify-content: center; */
+        place-items: center;
     }
     .some-title-contaner{
         justify-content: center;
         align-items: center;
     }
+    .sponspor-logo{
+        /* align-items: center; */ 
+        /* justify-content: center; */
+        /* text-align: center; */
+        place-items: center;
+        gap: 30px;
+    }
+    
 }
 
 
@@ -29,9 +40,11 @@
     .features{
         flex-direction: column;
     }
-    .facts-contaner{
-        grid-template-columns: repeat(2, 1fr);
+    .facts-contaner, .sponspor-logo {
+        grid-template-columns:repeat(2, 1fr);
         margin-bottom: 115px;
+        gap: 25px;
+        place-items: center;
     } 
     .some-title-contaner{
         justify-content: center;
