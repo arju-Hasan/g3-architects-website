@@ -75,6 +75,7 @@ main{
 .nav-item{
     list-style: none;
     margin-left: 30px;
+    font-size: 1.25rem;
 }
 .nav-link{
     text-decoration: none;
