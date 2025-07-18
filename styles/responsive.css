@@ -30,6 +30,9 @@
         place-items: center;
         gap: 30px;
     }
+    .features-enjoy{
+        flex-direction: column;
+    }
     
 }
 
@@ -49,5 +52,8 @@
     .some-title-contaner{
         justify-content: center;
         align-items: center;
+    }
+    .features-enjoy{
+        flex-direction: column;
     }
     }
